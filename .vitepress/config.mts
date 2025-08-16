@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
 	title: "Luckysheet 源码解析",
 	description: "",
+	appearance: false, // 禁用主题切换
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 
@@ -11,6 +12,8 @@ export default defineConfig({
 		outline: {
 			label: "页面导航",
 		},
+
+		search: { provider: "local" },
 
 		nav: [
 			{ text: "文档", link: "https://dream-num.github.io/LuckysheetDocs/zh/guide/", target: "_blank" },
@@ -32,16 +35,17 @@ export default defineConfig({
 				text: "第 2 章：核心模块精析",
 				items: [
 					{ text: "2.1 初始化", link: "/chapter2/core.md" },
-					{ text: "2.2 静态资源", link: "/chapter2/assets.md" },
-					{ text: "2.3 控制器模块", link: "/chapter2/controller.md" },
-					{ text: "2.4 样式文件", link: "/chapter2/css.md" },
-					{ text: "2.5 本地 Mock Data", link: "/chapter2/mock-data.md" },
-					{ text: "2.6 插件系统", link: "/chapter2/expend-plugins.md" },
-					{ text: "2.7 函数系统", link: "/chapter2/function.md" },
-					{ text: "2.8 全局方法", link: "/chapter2/global.md" },
-					{ text: "2.9 多语言实现", link: "/chapter2/locale.md" },
-					{ text: "2.10 全局数据中心", link: "/chapter2/store.md" },
-					{ text: "2.11 工具类", link: "/chapter2/utils.md" },
+					{ text: "2.2 打包处理", link: "/chapter2/build.md" },
+					{ text: "2.3 静态资源", link: "/chapter2/assets.md" },
+					{ text: "2.4 控制器模块", link: "/chapter2/controller.md" },
+					{ text: "2.5 样式文件", link: "/chapter2/css.md" },
+					{ text: "2.6 本地 Mock Data", link: "/chapter2/mock-data.md" },
+					{ text: "2.7 插件系统", link: "/chapter2/expend-plugins.md" },
+					{ text: "2.8 函数系统", link: "/chapter2/function.md" },
+					{ text: "2.9 全局方法", link: "/chapter2/global.md" },
+					{ text: "2.10 多语言实现", link: "/chapter2/locale.md" },
+					{ text: "2.11 全局数据中心", link: "/chapter2/store.md" },
+					{ text: "2.12 工具类", link: "/chapter2/utils.md" },
 				],
 			},
 			{

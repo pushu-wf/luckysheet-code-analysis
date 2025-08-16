@@ -1,29 +1,50 @@
 {
-  "hash": "e6eb2600",
-  "configHash": "7e463b92",
+  "hash": "9151d011",
+  "configHash": "aaaf3fee",
   "lockfileHash": "7d45d254",
-  "browserHash": "edd9df2b",
+  "browserHash": "45050613",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/.pnpm/vue@3.5.18/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "54fcd8a3",
+      "fileHash": "81117fb8",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/.pnpm/@vue+devtools-api@7.7.7/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "eee87722",
+      "fileHash": "caa7ef0e",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/.pnpm/@vueuse+core@12.8.2/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "0b3cd56f",
+      "fileHash": "4bfe9024",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../node_modules/.pnpm/@vueuse+integrations@12.8.2_focus-trap@7.6.5/node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "37a0489c",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "76316aed",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../node_modules/.pnpm/minisearch@7.1.2/node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "af543efc",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-Z343HRCW": {
+      "file": "chunk-Z343HRCW.js"
+    },
     "chunk-FZQEDHRP": {
       "file": "chunk-FZQEDHRP.js"
     }
