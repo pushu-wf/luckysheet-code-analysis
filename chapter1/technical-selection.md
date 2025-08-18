@@ -12,19 +12,9 @@ Luckysheet 作为一个功能强大的在线电子表格，采用了多种现代
 
 4. **Web Worker 多线程计算**：为了提升复杂计算场景下的用户体验，Luckysheet 使用 Web Worker 实现多线程计算，避免阻塞主线程，确保界面的流畅性。
 
-## 构建工具(Rollup)
+## 构建工具(Gulp)
 
-Luckysheet 使用 Rollup 作为其主要的构建工具。Rollup 是一个 JavaScript 模块打包器，可以将小块代码编译成大块复杂的代码，适用于构建库和应用程序。相比其他构建工具，Rollup 具有以下优势：
-
-1. **Tree Shaking**：Rollup 支持 Tree Shaking，可以自动移除未使用的代码，减小最终打包文件的体积。
-
-2. **ES6 模块支持**：Rollup 天然支持 ES6 模块，可以更好地处理现代 JavaScript 代码。
-
-3. **插件生态系统**：Rollup 拥有丰富的插件生态系统，可以轻松扩展功能。
-
-4. **代码分割**：支持代码分割，可以将代码拆分成多个 bundle，实现按需加载。
-
-在 Luckysheet 项目中，构建配置位于 [build/](file:///d:/Projects/luckysheet-code-analysis/build/) 目录下，通过定制化的 Rollup 配置来满足项目的特定需求。
+[Gulp](https://www.gulpjs.com.cn/) 是一个开源的构建工具，用于 automate tasks，如编译、压缩、合并 JavaScript、CSS、HTML 等文件。Gulp 的主要作用是自动化构建过程，简化开发流程，提高开发效率。在构建编译过程中，Luckysheet 还引入了 Rollup ，用于处理 JavaScript 模块化、转码等任务。
 
 ## 依赖库分析
 

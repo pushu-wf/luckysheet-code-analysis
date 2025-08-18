@@ -7,6 +7,18 @@
 
 :::
 
+::: tip 🔗 官方文档
+
+https://dream-num.github.io/LuckysheetDocs/zh/guide/
+
+:::
+
+::: tip 🔗 在线体验
+
+https://dream-num.github.io/LuckysheetDemo/
+
+:::
+
 ## 项目简介
 
 Luckysheet 是一款纯前端实现的**类似 Excel 的在线表格**，它功能强大、配置简单且完全开源。作为一个企业级的 Web 数据处理工具，Luckysheet 提供了丰富的电子表格功能，包括但不限于：
