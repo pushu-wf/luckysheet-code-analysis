@@ -1,0 +1,19 @@
+[
+	{
+		"label": ".github",
+		"type": "folder",
+		"tips": "项目 GitHub 仓库文件，提供自动化部署程序、对提交的 PR 实现约束等",
+		"level": 1
+	},
+	{
+		"label": "docs",
+		"type": "folder",
+		"tips": "项目部署的 vuepress 文档资源",
+		"level": 1
+	},
+	{
+		"label": ".eslintignore",
+		"type": "file",
+		"level": 1
+	}
+]
