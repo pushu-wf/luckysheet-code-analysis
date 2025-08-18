@@ -479,10 +479,7 @@
 							<div class="flex justify-center">
 								<div
 									class="w-48 h-48 bg-slate-100 border-2 border-dashed border-slate-300 rounded-lg flex items-center justify-center">
-									<img
-										alt="QQ群二维码"
-										class="w-full h-full object-cover rounded-lg"
-										src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/qq-group-qrcode-XdLDRxdDr04xGqXfHoLFhhApicvdX4.png" />
+									<img alt="QQ群二维码" class="w-full h-full object-cover rounded-lg" src="/qq-group.png" />
 								</div>
 							</div>
 							<p class="text-sm text-slate-500 mt-2">群号：123456789</p>
@@ -504,10 +501,7 @@
 							<div class="flex justify-center">
 								<div
 									class="w-48 h-48 bg-slate-100 border-2 border-dashed border-slate-300 rounded-lg flex items-center justify-center">
-									<img
-										alt="微信群二维码"
-										class="w-full h-full object-cover rounded-lg"
-										src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/wechat-group-qr-code-UPfYN11XWH1M46Xfnld6ysI0mK6BHO.png" />
+									<img alt="微信群二维码" class="w-full h-full object-cover rounded-lg" src="/wechat.png" />
 								</div>
 							</div>
 							<p class="text-sm text-slate-500 mt-2">添加管理员微信邀请入群</p>
