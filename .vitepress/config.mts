@@ -83,6 +83,9 @@ export default defineConfig({
 			},
 		],
 
-		socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
+		socialLinks: [
+			{ icon: "github", link: "https://github.com/pushu-wf/luckysheet-code-analysis" },
+			{ icon: "gitee", link: "https://gitee.com/wfeng0/luckysheet-code-analysis" },
+		],
 	},
 });
