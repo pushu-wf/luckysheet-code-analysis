@@ -11,7 +11,7 @@ import catalogueData from "/public/catalogue.json";
 const openCatalogue = ref([]);
 
 // 打开文件夹
-function open(label) {
+function open({ label }) {
 	if (openCatalogue.value.includes(label)) {
 		openCatalogue.value.splice(openCatalogue.value.indexOf(label), 1);
 	} else {

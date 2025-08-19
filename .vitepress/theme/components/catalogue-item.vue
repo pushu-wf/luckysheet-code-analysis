@@ -1,6 +1,6 @@
 <template>
 	<div class="catalog-item" v-for="item in data" :key="item.label">
-		<div class="catalog-item-label" :style="{ paddingLeft: (item.level - 1) * 30 + 'px' }" @click="open(item.label, item.children)">
+		<div class="catalog-item-label" :style="{ paddingLeft: (item.level - 1) * 30 + 'px' }" @click="open(item)">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				v-if="item.children"
@@ -31,16 +31,22 @@
 import { defineEmits, defineProps } from "vue";
 const { data, openCatalogue } = defineProps({ data: Array, openCatalogue: Array });
 const emit = defineEmits(["toggleCatalogue"]);
-function open(label, haveChildren = false) {
+function open(item) {
+	const haveChildren = item.children && item.children.length > 0;
+	let { label, link } = item;
 	if (!haveChildren) {
-		// 如果 label 存在 . 则拼接  -
-		label = label.replace(/\./g, "-");
-		// 转为小写
-		label = label.toLowerCase();
-		window.location.hash = `#${label}`;
+		if (link) {
+			window.location.href = link;
+		} else {
+			// 如果 label 存在 . 则拼接  -
+			label = label.replace(/\./g, "-");
+			// 转为小写
+			label = label.toLowerCase();
+			window.location.hash = `#${label}`;
+		}
 		return;
 	}
-	emit("toggleCatalogue", label);
+	emit("toggleCatalogue", item);
 }
 </script>
 

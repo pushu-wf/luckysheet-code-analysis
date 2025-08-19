@@ -21,19 +21,22 @@
 				"label": "assets",
 				"type": "folder",
 				"tips": "静态资源文件夹",
-				"level": 2
+				"level": 2,
+				"link": "/chapter2/assets.html"
 			},
 			{
 				"label": "controllers",
 				"type": "folder",
 				"tips": "控制器文件夹",
-				"level": 2
+				"level": 2,
+				"link": "/chapter2/controller.html"
 			},
 			{
 				"label": "css",
 				"type": "folder",
 				"tips": "样式文件夹",
-				"level": 2
+				"level": 2,
+				"link": "/chapter2/css.html"
 			},
 			{
 				"label": "data",
@@ -45,13 +48,15 @@
 				"label": "demoData",
 				"type": "folder",
 				"tips": "示例数据",
-				"level": 2
+				"level": 2,
+				"link": "/chapter2/mock-data.html"
 			},
 			{
 				"label": "expendPlugins",
 				"type": "folder",
 				"tips": "插件系统",
-				"level": 2
+				"level": 2,
+				"link": "/chapter2/expend-plugins.html"
 			},
 			{
 				"label": "fonts",
@@ -63,19 +68,22 @@
 				"label": "functions",
 				"type": "folder",
 				"tips": "函数系统",
-				"level": 2
+				"level": 2,
+				"link": "/chapter2/function.html"
 			},
 			{
 				"label": "global",
 				"type": "folder",
 				"tips": "全局方法",
-				"level": 2
+				"level": 2,
+				"link": "/chapter2/global.html"
 			},
 			{
 				"label": "locale",
 				"type": "folder",
 				"tips": "多语言实现",
-				"level": 2
+				"level": 2,
+				"link": "/chapter2/locale.html"
 			},
 			{
 				"label": "methods",
@@ -93,13 +101,15 @@
 				"label": "store",
 				"type": "folder",
 				"tips": "数据中心",
-				"level": 2
+				"level": 2,
+				"link": "/chapter2/store.html"
 			},
 			{
 				"label": "utils",
 				"type": "folder",
 				"tips": "工具类",
-				"level": 2
+				"level": 2,
+				"link": "/chapter2/utils.html"
 			},
 			{
 				"label": "config.js",
