@@ -12,7 +12,159 @@
 		"level": 1
 	},
 	{
+		"label": "src",
+		"type": "folder",
+		"tips": "源码核心文件夹",
+		"level": 1,
+		"children": [
+			{
+				"label": "assets",
+				"type": "folder",
+				"tips": "静态资源文件夹",
+				"level": 2
+			},
+			{
+				"label": "controllers",
+				"type": "folder",
+				"tips": "控制器文件夹",
+				"level": 2
+			},
+			{
+				"label": "css",
+				"type": "folder",
+				"tips": "样式文件夹",
+				"level": 2
+			},
+			{
+				"label": "data",
+				"type": "folder",
+				"tips": "图表配置文件",
+				"level": 2
+			},
+			{
+				"label": "demoData",
+				"type": "folder",
+				"tips": "示例数据",
+				"level": 2
+			},
+			{
+				"label": "expendPlugins",
+				"type": "folder",
+				"tips": "插件系统",
+				"level": 2
+			},
+			{
+				"label": "fonts",
+				"type": "folder",
+				"tips": "字体文件夹",
+				"level": 2
+			},
+			{
+				"label": "functions",
+				"type": "folder",
+				"tips": "函数系统",
+				"level": 2
+			},
+			{
+				"label": "global",
+				"type": "folder",
+				"tips": "全局方法",
+				"level": 2
+			},
+			{
+				"label": "locale",
+				"type": "folder",
+				"tips": "多语言实现",
+				"level": 2
+			},
+			{
+				"label": "methods",
+				"type": "folder",
+				"tips": "提供快捷 getters 和 setters 方法",
+				"level": 2
+			},
+			{
+				"label": "plugins",
+				"type": "folder",
+				"tips": "外部插件，如 JQuery 等",
+				"level": 2
+			},
+			{
+				"label": "store",
+				"type": "folder",
+				"tips": "数据中心",
+				"level": 2
+			},
+			{
+				"label": "utils",
+				"type": "folder",
+				"tips": "工具类",
+				"level": 2
+			},
+			{
+				"label": "config.js",
+				"type": "file",
+				"tips": "luckysheet 默认配置对象",
+				"level": 2
+			},
+			{
+				"label": "core.js",
+				"type": "file",
+				"tips": "核心方法",
+				"level": 2
+			},
+			{
+				"label": "index.html",
+				"type": "file",
+				"tips": "源码入口文件",
+				"level": 2
+			},
+			{
+				"label": "index.js",
+				"type": "file",
+				"tips": "导出Luckysheet方法",
+				"level": 2
+			}
+		]
+	},
+	{
 		"label": ".eslintignore",
+		"type": "file",
+		"tips": "eslint 忽略文件",
+		"level": 1
+	},
+	{
+		"label": ".gitignore",
+		"type": "file",
+		"tips": "git 忽略文件",
+		"level": 1
+	},
+	{
+		"label": ".prettierignore",
+		"type": "file",
+		"tips": "prettier 忽略文件",
+		"level": 1
+	},
+	{
+		"label": ".prettierrc.json",
+		"type": "file",
+		"tips": "prettier 配置文件",
+		"level": 1
+	},
+	{
+		"label": "CHANGELOG.md",
+		"type": "file",
+		"tips": "修改日志",
+		"level": 1
+	},
+	{
+		"label": "gulpfile.js",
+		"type": "file",
+		"tips": "gulpfile 打包文件",
+		"level": 1
+	},
+	{
+		"label": "package.json",
 		"type": "file",
 		"level": 1
 	}

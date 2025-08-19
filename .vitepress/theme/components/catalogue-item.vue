@@ -14,13 +14,8 @@
 			<span class="icon" v-if="openCatalogue.includes(item.label)">📂</span>
 			<span class="icon" v-else-if="item.type === 'file'">📄</span>
 			<span class="icon" v-else>📁</span>
-			<div class="title">
-				{{ item.label }}
-
-				<!-- <div class="tips" v-show="item.tips">
-					{{ item.tips }}
-				</div> -->
-			</div>
+			<div class="title">{{ item.label }}</div>
+			<div class="tips" v-show="item.tips">{{ item.tips }}</div>
 		</div>
 
 		<catalogue-item
@@ -37,7 +32,14 @@ import { defineEmits, defineProps } from "vue";
 const { data, openCatalogue } = defineProps({ data: Array, openCatalogue: Array });
 const emit = defineEmits(["toggleCatalogue"]);
 function open(label, haveChildren = false) {
-	if (!haveChildren) return;
+	if (!haveChildren) {
+		// 如果 label 存在 . 则拼接  -
+		label = label.replace(/\./g, "-");
+		// 转为小写
+		label = label.toLowerCase();
+		window.location.hash = `#${label}`;
+		return;
+	}
 	emit("toggleCatalogue", label);
 }
 </script>
@@ -66,18 +68,17 @@ function open(label, haveChildren = false) {
 	display: flex;
 	align-items: center;
 }
-
-.catalog-item-label .title {
-	position: relative;
+.catalog-item-label:hover .tips {
+	opacity: 1;
 }
-
 .catalog-item-label .tips {
+	opacity: 0;
+	transition: all 0.3s;
 	width: fit-content;
 	border-radius: 4px;
-	position: absolute;
-	right: 100%;
-	top: -20px;
-	padding: 4px;
+	/* padding: 2px 6px; */
+	padding: 0 8px;
+	transform: translate(20px, -50%);
 	background-color: #000;
 	color: #f5f5f5;
 	box-sizing: border-box;
