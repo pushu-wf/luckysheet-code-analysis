@@ -29,13 +29,34 @@ docs
 该文档启动后与官网无异，想查看文档，可移步[官网](https://dream-num.github.io/LuckysheetDocs/zh/guide/)
 :::
 
+::: details 源码传送门
+[https://gitee.com/mengshukeji/Luckysheet/tree/master/docs](https://gitee.com/mengshukeji/Luckysheet/tree/master/docs)
+
+[https://github.com/dream-num/Luckysheet/tree/master/docs](https://github.com/dream-num/Luckysheet/tree/master/docs)
+
+:::
+
 ## data
 
 data 文件夹下只有一个 chartJson.js 文件，用于处理图表数据。提供了图表基础数据模板、字体大小、线宽等其他可配置选项。
 
+::: details 源码传送门
+[https://gitee.com/mengshukeji/Luckysheet/tree/master/src/data](https://gitee.com/mengshukeji/Luckysheet/tree/master/src/data)
+
+[https://github.com/dream-num/Luckysheet/tree/master/src/data](https://github.com/dream-num/Luckysheet/tree/master/src/data)
+
+:::
+
 ## fonts
 
 fontawesome 字体。
+
+::: details 源码传送门
+[https://gitee.com/mengshukeji/Luckysheet/tree/master/src/fonts](https://gitee.com/mengshukeji/Luckysheet/tree/master/src/fonts)
+
+[https://github.com/dream-num/Luckysheet/tree/master/src/fonts](https://github.com/dream-num/Luckysheet/tree/master/src/fonts)
+
+:::
 
 ## methods
 
@@ -70,6 +91,13 @@ plugins 是外部的依赖模块，用于扩展 Luckysheet 的功能。文件夹
 <p align="center">
     <img  src='/plugins-catalog.png' />
 </p>
+
+::: details 源码传送门
+[https://gitee.com/mengshukeji/Luckysheet/tree/master/src/plugins](https://gitee.com/mengshukeji/Luckysheet/tree/master/src/plugins)
+
+[https://github.com/dream-num/Luckysheet/tree/master/src/plugins](https://github.com/dream-num/Luckysheet/tree/master/src/plugins)
+
+:::
 
 ## config.js
 
