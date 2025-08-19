@@ -13,40 +13,28 @@
 
 ## docs
 
-## assets
+/docs 文件夹主要为 Luckysheet 的文档，包含技术选型、目录结构、依赖库、目录结构、开发流程、部署流程、常见问题、贡献指南、许可协议等信息，使用 `vuepress` 构建的，内部分英文文档及中文文档，结构为：
 
-## controllers
-
-## css
+```markdown
+docs
+| - .vuepress
+| - about
+| - guide
+| - zh
+| |- about
+| |- guide
+```
 
 ## data
 
-## demoData
-
-## expendPlugins
-
 ## fonts
-
-## functions
-
-## global
-
-## locale
 
 ## methods
 
 ## plugins
 
-## store
-
-## utils
-
 ## config.js
-
-## core.js
 
 ## index.html
 
 ## index.js
-
-## gulpfile.js
