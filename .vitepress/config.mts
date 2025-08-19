@@ -65,6 +65,7 @@ export default defineConfig({
 					{ text: "4.1 自定义菜单", link: "/chapter4/custom-menu.md" },
 					{ text: "4.2 自定义请求头", link: "/chapter4/request-header.md" },
 					{ text: "4.3 拓展VChart", link: "/chapter4/vchart.md" },
+					{ text: "4.4 打包后 dist 包处理", link: "/chapter4/vchart.md" },
 				],
 			},
 			{
