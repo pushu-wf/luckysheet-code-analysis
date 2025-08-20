@@ -4,7 +4,7 @@ const fs = require("fs");
 // 定义文件列表
 const fileList = [
 	"alternateformat",
-	"cellDataPickerCtrl",
+	"cellDatePickerCtrl",
 	"cellFormat",
 	"canditionFormat",
 	"constant",

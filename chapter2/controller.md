@@ -8,7 +8,9 @@ controllers 模块是整个项目的核心，内容比较多，按每个文件�
 
 <!--@include: ../controllers/alternateformat.md{4,}-->
 
-## cellDataPickerCtrl.js
+## cellDatePickerCtrl.js
+
+<!--@include: ../controllers/cellDatePickerCtrl.md{4,}-->
 
 ## cellFormat.js
 
