@@ -4,7 +4,7 @@
 
 > index.html 内部执行的 create 方法来自 core.js
 
-## 将 api 挂载到 luckysheet 对象上
+## 挂载 API
 
 `core.js` 正文的第一步，就是将导入的 api 挂载到 `luckysheet` 对象上：
 
@@ -78,6 +78,8 @@ return {
 
 对 loading 的定制，可以看下具体的配置：
 
+::: details LoadingHtml
+
 ```js
 const loadingHtml = `
     <div class="luckysheet-loading-content"> 
@@ -89,6 +91,8 @@ const loadingHtml = `
         </div>    
     </div>`;
 ```
+
+:::
 
 ::: details 源码传送门
 [https://gitee.com/mengshukeji/Luckysheet/tree/master/src/controllers/constant.js](https://gitee.com/mengshukeji/Luckysheet/tree/master/src/controllers/constant.js)
@@ -130,6 +134,42 @@ if (loadurl == "") {
 	});
 }
 ```
+
+::: details loadUrl 接口返回值规范
+
+1. 这是一个字符串，类似于 JSON.stringify()处理后的 json 数据，压缩后的数据便于传输
+2. loadUrl 是一个 post 请求，也是为了支持大数据量
+3. 考虑到一些公式、图表及数据透视表会引用其他 sheet 的数据，所以前台会加一个判断，如果该当前 sheet 引用了其他 sheet 的数据则会通过 **loadSheetUrl** 配置的接口地址请求数据，把引用到的 sheet 的数据一并补全，而不用等切换到其它页的时候再请求
+4. 当数据量小的时候，也可以不用 Luckysheet 提供的此接口，直接使用 data 参数可以提前准备好所有表格数据用于初始化
+5. 具体可参考：
+
+```js
+"[
+	//status为1的sheet页，重点是需要提供初始化的数据celldata
+	{
+		"name": "Cell",
+		"index": "sheet_01",
+		"order":  0,
+		"status": 1,
+		"celldata": [{"r":0,"c":0,"v":{"v":1,"m":"1","ct":{"fa":"General","t":"n"}}}]
+	},
+	//其他status为0的sheet页，无需提供celldata，只需要配置项即可
+	{
+		"name": "Data",
+		"index": "sheet_02",
+		"order":  1,
+		"status": 0
+	},
+	{
+		"name": "Picture",
+		"index": "sheet_03",
+		"order":  2,
+		"status": 0
+	}
+]"
+```
+
+:::
 
 **6. 总结**
 

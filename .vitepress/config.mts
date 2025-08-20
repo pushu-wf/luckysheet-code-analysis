@@ -5,6 +5,24 @@ export default defineConfig({
 	title: "Luckysheet 源码解析",
 	description: "",
 	appearance: false, // 禁用主题切换
+
+	// 添加 SEO 标签
+	head: [
+		[
+			"mate",
+			{
+				name: "keywords",
+				content: "Luckysheet Luckysheet 源码解析 Luckysheet-源码解析 Luckysheet 源码解读 Luckysheet-源码解读 Luckysheet 源码",
+			},
+		],
+		[
+			"mate",
+			{
+				name: "description",
+				content: "Luckysheet 源码解析",
+			},
+		],
+	],
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 
