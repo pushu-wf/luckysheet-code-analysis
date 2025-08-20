@@ -6,6 +6,8 @@ controllers 模块是整个项目的核心，内容比较多，按每个文件�
 
 ## alternateformat.js
 
+<!--@include: ../controllers/alternateformat.md{4,}-->
+
 ## cellDataPickerCtrl.js
 
 ## cellFormat.js
