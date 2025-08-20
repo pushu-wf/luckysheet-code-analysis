@@ -16,7 +16,11 @@ Luckysheet 作为一个功能强大的在线电子表格，采用了多种现代
 
 ## 构建工具(Gulp)
 
-[Gulp](https://www.gulpjs.com.cn/) 是一个开源的构建工具，用于 automate tasks，如编译、压缩、合并 JavaScript、CSS、HTML 等文件。Gulp 的主要作用是自动化构建过程，简化开发流程，提高开发效率。在构建编译过程中，Luckysheet 还引入了 Rollup ，用于处理 JavaScript 模块化、转码等任务。
+Gulp 是一个开源的构建工具，用于 automate tasks，如编译、压缩、合并 JavaScript、CSS、HTML 等文件。Gulp 的主要作用是自动化构建过程，简化开发流程，提高开发效率。在构建编译过程中，Luckysheet 还引入了 Rollup ，用于处理 JavaScript 模块化、转码等任务。
+
+::: tip 🔗 官方文档
+[https://www.gulpjs.com.cn/](https://www.gulpjs.com.cn/)
+:::
 
 ## 依赖库分析
 
@@ -26,6 +30,6 @@ Luckysheet 尽可能减少了对第三方库的依赖，以保持项目的轻量
 
 2. **ECharts**：用于实现图表功能。ECharts 是一个功能强大的图表库，支持多种图表类型和丰富的配置选项，能够满足 Luckysheet 对图表功能的需求。
 
-3. **其他小型工具库**：如用于 pako、数学计算等的工具库。
+3. **其他小型工具库**：如 pako、数学计算等的工具库。
 
 通过精心选择和使用第三方库，Luckysheet 在保证功能完整性的同时，尽可能地减少了不必要的依赖，提升了整体性能和可维护性。

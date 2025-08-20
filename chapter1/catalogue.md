@@ -152,7 +152,7 @@ async function core() {
 	await require("esbuild").buildSync({
 		format: "iife",
 		globalName: "luckysheet",
-		entryPoints: ["src/index.js"], // esbuild 打包入口问价集合
+		entryPoints: ["src/index.js"], // esbuild 打包入口文件集合
 		outfile: "dist/luckysheet.umd.js",
 		// other options
 	});

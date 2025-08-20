@@ -171,7 +171,8 @@
 		"label": "gulpfile.js",
 		"type": "file",
 		"tips": "gulpfile 打包文件",
-		"level": 1
+		"level": 1,
+		"link": "/chapter2/build.html"
 	},
 	{
 		"label": "package.json",
