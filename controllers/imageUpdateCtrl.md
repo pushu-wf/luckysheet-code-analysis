@@ -1,2 +1,3 @@
 # imageUpdateCtrl
-            <backTop />
+
+<backTop />

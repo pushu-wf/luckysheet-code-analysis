@@ -1,2 +1,3 @@
 # splitColumn
-            <backTop />
+
+<backTop />

@@ -1,2 +1,3 @@
 # formulaBar
-            <backTop />
+
+<backTop />

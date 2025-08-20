@@ -66,7 +66,8 @@ const path = "./controllers";
 		fs.writeFileSync(
 			filePath,
 			`# ${fileName}
-            <backTop />`
+
+<backTop />`
 		);
 	}
 })();
